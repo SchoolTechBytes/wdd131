@@ -48,7 +48,6 @@ footer {
 
 h1 {
     color: darkblue;
-    border-bottom: 1px solid #169eb6;
     justify-self: center;
     grid-column: span 2;    
 }
@@ -56,6 +55,7 @@ h1 {
 main {
     display: grid;
     columns: 2;
+    column-gap: 0.5rem;
 }
 
 main img {
@@ -69,15 +69,16 @@ main img {
 
 .card {
     grid-row: 2;
-    margin: 10px  auto;
     padding: 1rem;
     border: var(--border);
+    border-radius: 12px;
 }
 
 .card h2 {
     background-color: #15404d;
     color: white;
-    justify-self: center;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 footer {
