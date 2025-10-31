@@ -60,41 +60,18 @@ main img {
     float: right;
 }
 
-p {
-    padding: 0;
-}
-
-
-
-aside {
-    text-align: var(--text-center);
-}
-
-aside img {
-    width: 200px;
-    height: auto;
-}
-
-aside h2 {
-    position: absolute;
-    top: 30px;
-    left: 150px;
+.card {
+    display: block;
 }
 
 footer {
+    background-color: #15404d;
+    color: white;
     margin-top: 15px;
     border-top: var(--border);
     text-align: var(--text-center);
 }
 
-/* Class Selectors */
-
-.box {
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 10%);
-    padding: 1rem;
-    background-color: #0b10ca;
-}
 
 .metamorphous-regular {
   font-family: "Metamorphous", serif;
