@@ -49,6 +49,13 @@ footer {
 h1 {
     color: darkblue;
     border-bottom: 1px solid #169eb6;
+    justify-self: center;
+    grid-column: span 2;    
+}
+
+main {
+    display: grid;
+    columns: 2;
 }
 
 main img {
@@ -61,7 +68,16 @@ main img {
 }
 
 .card {
-    display: block;
+    grid-row: 2;
+    margin: 10px  auto;
+    padding: 1rem;
+    border: var(--border);
+}
+
+.card h2 {
+    background-color: #15404d;
+    color: white;
+    justify-self: center;
 }
 
 footer {
@@ -72,6 +88,9 @@ footer {
     text-align: var(--text-center);
 }
 
+a:hover {
+    color: #27b329;
+}
 
 .metamorphous-regular {
   font-family: "Metamorphous", serif;
